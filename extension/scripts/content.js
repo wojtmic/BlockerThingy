@@ -6,5 +6,6 @@ function getURL() {
 
 // working
 
+document.body.remove();
 window.close(``, `_parent`, ``);
 window.open("//blocked.html");
