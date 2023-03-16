@@ -20,7 +20,3 @@ window.close(``, `_parent`, ``);
 document.body.remove();
 document.head.remove();
 window.open("https://wojtmic.github.io/BlockerThingy/");
-
-sleep(8000);
-
-document.getElementById("blockreason").innerHTML = "susmic";
