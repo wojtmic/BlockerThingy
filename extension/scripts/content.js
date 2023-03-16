@@ -16,10 +16,11 @@ function sleep(milliseconds) {
 
 let url = getURL()
 
-document.body.remove();
 window.close(``, `_parent`, ``);
-window.open("//blocked.html");
+document.body.remove();
+document.head.remove();
+window.open("https://wojtmic.github.io/BlockerThingy/");
 
-sleep(2000);
+sleep(8000);
 
 document.getElementById("blockreason").innerHTML = "susmic";
