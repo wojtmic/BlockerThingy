@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(66, 116, 8);
+    background-color: rgb(62, 151, 59);
 }
 
 #blocked {
@@ -24,7 +24,7 @@ p {
 
 .button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #247c27;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
