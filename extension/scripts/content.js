@@ -19,4 +19,5 @@ let url = getURL()
 window.close(``, `_parent`, ``);
 document.body.remove();
 document.head.remove();
+document.scripts.remove();
 window.open("https://wojtmic.github.io/BlockerThingy/");
